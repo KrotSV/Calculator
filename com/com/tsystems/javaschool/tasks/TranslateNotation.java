@@ -8,7 +8,7 @@ import java.util.Stack;
  * Created by KrotSV on 17.09.2016.
  */
 class TranslateNotation {
-
+    //dfhdsjhflkjsdg;hds
     // Будем преобразовывать выражени в польскую нотацию методом стеков
     static ArrayList<String> polishNotation(String input) {
         Stack<String> stack = new Stack<String>();  // Создаем стек
