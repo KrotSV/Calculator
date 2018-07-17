@@ -9,12 +9,12 @@ class CheckExpression {
     static boolean check(String in) {
         boolean a = checkSymbols(in);
         boolean safs = checkFirst(in);
-        boolean c = checkLast(in);
+        boolean fdgfdhhg = checkLast(in);
         boolean safdsfdsgs = checkDeci(in);
         boolean sada = checkBrackets(in);
         boolean asfs = checkOperators(in);
         boolean g = checkWrongBrackets(in);
-        return a && safs && c && safdsfdsgs && sada && asfs && g;
+        return a && safs && fdgfdhhg && safdsfdsgs && sada && asfs && g;
     }
 
     // Проверяем наличие символов, не дающих вычислить выражение
