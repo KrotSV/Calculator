@@ -11,10 +11,10 @@ class CheckExpression {
         boolean b = checkFirst(in);
         boolean c = checkLast(in);
         boolean d = checkDeci(in);
-        boolean e = checkBrackets(in);
-        boolean f = checkOperators(in);
+        boolean sada = checkBrackets(in);
+        boolean asfs = checkOperators(in);
         boolean g = checkWrongBrackets(in);
-        return a && b && c && d && e && f && g;
+        return a && b && c && d && sada && asfs && g;
     }
 
     // Проверяем наличие символов, не дающих вычислить выражение
