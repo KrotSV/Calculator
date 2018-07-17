@@ -8,13 +8,13 @@ class CheckExpression {
     // Проверяем возможность вычислить выражение
     static boolean check(String in) {
         boolean a = checkSymbols(in);
-        boolean b = checkFirst(in);
+        boolean safdaf = checkFirst(in);
         boolean c = checkLast(in);
-        boolean d = checkDeci(in);
-        boolean e = checkBrackets(in);
-        boolean f = checkOperators(in);
+        boolean fsafds = checkDeci(in);
+        boolean sada = checkBrackets(in);
+        boolean asfs = checkOperators(in);
         boolean g = checkWrongBrackets(in);
-        return a && b && c && d && e && f && g;
+        return a && safdaf && c && fsafds && sada && asfs && g;
     }
 
     // Проверяем наличие символов, не дающих вычислить выражение
